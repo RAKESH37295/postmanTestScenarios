@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "a17dd0d2-53b8-4308-b257-4a6af4b88365",
+		"name": "covid-19",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "covid-19 stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{newUrl}}/api/v1/cases/general-stats",
+					"host": [
+						"{{newUrl}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cases",
+						"general-stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "countrybased",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{newUrl}}/api/v1/cases/countries-search?=USA",
+					"host": [
+						"{{newUrl}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cases",
+						"countries-search"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "USA"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "covid-19 stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{newUrl}}/api/v1/cases/general-stats",
+					"host": [
+						"{{newUrl}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cases",
+						"general-stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "countrybased",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{newUrl}}/api/v1/cases/countries-search?=USA",
+					"host": [
+						"{{newUrl}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cases",
+						"countries-search"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "USA"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "covid-19 stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{newUrl}}/api/v1/cases/general-stats",
+					"host": [
+						"{{newUrl}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cases",
+						"general-stats"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
